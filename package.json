@@ -20,6 +20,11 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": {
+    "/api/*" : {
+      "target": "https://cise-week3-backend-repo.vercel.app"
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
